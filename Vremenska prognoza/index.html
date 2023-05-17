@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+  <link rel="stylesheet" href="./style/style.css">
+    <title>Vremenska prognoza</title>
+   
+</head>
+<body>
+    <h1 class="header">Turistička agencija "Planinar"</h1>
+    <nav>
+    <ul>
+  <li class="active"><a class="active" href="index.html">Početna</a></li>
+  <li><a href="./pages/oautoru.html">O autoru</a></li>
+  <li><a href="./pages/uputstvo.html">Uputstvo</a></li>
+    </ul>
+    </nav>
+    <section>
+        <div>
+            <p style="display: inline;">Izaberite grad</p>
+            <select id="izbor" onchange="Promena()">
+                <option value=""></option>
+                <option value="beograd">Beograd</option>
+                <option value="kraljevo">Kraljevo</option>
+                <option value="nis">Nis</option>
+                <option value="kragujevac">Kragujevac</option>
+                <option value="leskovac">Leskovac</option>
+                <option value="pirot">Pirot</option>
+                <option value="vranje">Vranje</option>
+                <option value="subotica">Subotica</option>
+                <option value="zrenjanin">Zrenjanin</option>
+                <option value="vrnjacka-banja">Vrnjacka Banja</option>
+            </select>
+        </div>
+        <iframe src="https://naslovi.net/" id ="promena" width="430px" height="450px"></iframe>
+    </section>
+    <footer>
+        <p>© Turistička agencija "Planinar"</p>
+    </footer>
+    <script src="./script/custom.js"></script>
+</body>
+</html>
