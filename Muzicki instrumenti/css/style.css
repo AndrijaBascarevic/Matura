@@ -1,0 +1,52 @@
+.naslov
+{
+    text-align: center;
+}
+.jumbotron
+{
+    background: none;
+}
+body
+{
+    background-color: #fefa99;
+}
+.navbar
+{
+    background-color: #c4fea9;
+    margin: 0 auto;
+}
+.nav-link
+{
+    color: #7fb964;
+}
+.active
+{
+    background-color: #487f2e;
+    color: #fefa99;
+}
+footer {
+    background-color: #487f2e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+}
+.ft
+{
+    margin-top: 1rem;
+}
+.head
+{
+    background-color: #487f2e;
+    color: #c4fea9;
+    text-align: center;
+}
+.body
+{
+    background-color: #c4fea9;
+    text-align: center;
+}
+.txt
+{
+    font-size: 42px;
+}

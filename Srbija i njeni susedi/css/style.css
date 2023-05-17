@@ -1,0 +1,196 @@
+.naslov
+{
+    text-align: center;
+}
+.jumbotron
+{
+    background: none;
+}
+body
+{
+    background-color: #fefa99;
+}
+.navbar
+{
+    background-color: #c4fea9;
+    margin: 0 auto;
+}
+.nav-link
+{
+    color: #7fb964;
+}
+.active
+{
+    background-color: #487f2e;
+    color: #fefa99;
+}
+footer {
+    background-color: #487f2e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+}
+.ft
+{
+    margin-top: 1rem;
+}
+.mapa
+{
+    background-image: url('../images/1200px-Mapa_Srbije.png');
+    width: 1200px;
+    height: 1730px;
+    margin: auto;
+}
+.srb
+{
+    position: relative;
+    left: 450px;
+    top: 300px;
+}
+.srbtxt
+{
+    position: relative;
+    left: 495px;
+    top: 300px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.hrv
+{
+    position: relative;
+    left: 10px;
+    top: 60px;
+}
+.hrvtxt
+{
+    position: relative;
+    left: 25px;
+    top: 60px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.madj
+{
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+.madjtxt
+{
+    position: relative;
+    left: 120px;
+    top: 5px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.rum
+{
+    position: relative;
+    top: 20px;
+    left: 900px;
+}.rumtxt
+{
+    position: relative;
+    left: 920px;
+    top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.bih
+{
+    position: relative;
+    top: 250px;
+    left: 10px;
+}
+.bihtxt
+{
+    position: relative;
+    left: 20px;
+    top: 250px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.bug
+{
+    position: relative;
+    top: 290px;
+    left: 1040px;
+}
+.bugtxt
+{
+    position: relative;
+    left: 1070px;
+    top: 290px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.cg
+{
+    position: relative;
+    top: 440px;
+    left: 50px;
+}
+.cgtxt
+{
+    position: relative;
+    left: 80px;
+    top: 440px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.alb
+{
+    position: relative;
+    top: 580px;
+    left: 220px;
+}
+.albtxt
+{
+    position: relative;
+    left: 240px;
+    top: 580px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}
+.mak
+{
+    position: relative;
+    top: 520px;
+    left: 730px;
+}
+.maktxt
+{
+    position: relative;
+    left: 750px;
+    top: 520px;
+    font-size: larger;
+    font-weight: bold;
+    color: #487f2e;
+    width: 100px;
+    margin: 0;
+}

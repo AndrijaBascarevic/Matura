@@ -1,0 +1,71 @@
+.naslov
+{
+    border-left: 1px solid white;
+    text-align: center;
+}
+.jumbotron
+{
+    background-color: #4b6c9e;
+    color: white;
+}
+body
+{
+    background-color: #ffffff;
+}
+.navbar
+{
+    background-color: #3a4f63;
+    margin: 0 auto;
+}
+.nav-link
+{
+    color: #ffffff;
+}
+.active
+{
+    background-color: #465c71;
+    color: #ffffff;
+}
+footer {
+    background-color: #b6b7bc;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+}
+.ft
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head
+{
+    background-color: #487f2e;
+    color: #c4fea9;
+    text-align: center;
+}
+.body
+{
+    background-color: #c4fea9;
+    text-align: center;
+}
+.txt
+{
+    font-size: 42px;
+}
+.error
+{
+    color: red;
+}
+.boja
+{
+    background-color: gray;
+}
+.prosli
+{
+    background-color: green;
+}
+.neprosli
+{
+    background-color: red;
+}

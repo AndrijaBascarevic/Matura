@@ -1,0 +1,84 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.naslov
+{
+    text-align: center;
+}
+.jumbotron
+{
+    background: none;
+}
+body
+{
+    background-color: #fefa99;
+}
+.navbar
+{
+    background-color: #c4fea9;
+    margin: 0 auto;
+}
+.nav-link
+{
+    color: #7fb964;
+}
+.active
+{
+    background-color: #487f2e;
+    color: #fefa99;
+}
+footer {
+    background-color: #487f2e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    margin-top: 0px;
+}
+.ft
+{
+    margin-top: 1rem;
+}
+.container
+{
+    margin: auto;
+}
+img
+{
+    width: 500px;
+    height: 500px;
+}
+.text
+{
+    background-color: #c4fea9;
+    text-align: center;
+}
+#naziv
+{
+    margin: 20px;
+}
+#txt
+{
+    margin-top: 80px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.indikatori
+{
+    margin: 20px;
+    text-align: center;
+}
+.aktivan
+{
+    background-color: #666666;
+}
+.slike
+{
+    animation: fadeIn 1s;
+}

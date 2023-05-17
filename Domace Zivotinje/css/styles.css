@@ -1,0 +1,57 @@
+.naslov
+{
+    text-align: center;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+.jumbotron
+{
+    background: none;
+}
+body
+{
+    background-image: url("../images/Back.jpg");
+    z-index: 0;
+}
+.navbar
+{
+    background-color: #f2f29c;
+    margin: 15px;
+}
+.nav-link
+{
+    color: #bbb;
+}
+.active
+{
+    background-color: #3c1826;
+}
+footer {
+    background-color: #3c1826;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.ft
+{
+    margin-top: 1rem;
+}
+.slike
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+img
+{
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    border: solid #f2f29c 5px;
+    border-radius: 50%;
+}

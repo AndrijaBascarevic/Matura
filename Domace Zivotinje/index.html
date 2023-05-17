@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+        <h1 class="naslov">DOMACE ZIVOTINJE</h1>
+        <nav class="navbar navbar-expand-sm justify-content-center">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Pocetna</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">O Autoru</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Uputstvo</a>
+                </li>
+              </ul>
+          </nav>
+    </div>
+    <div class="container">
+        <div class="slike">
+            <div><img src="images/domestic-dog_thumb_3x2.jpg" alt="Slika1" width="100%" height="100%" onmouseenter="Zvuk(this.alt)" onclick="Otvori(this.alt)"></div>
+            <audio id="audio" src="./demo/mixkit-dog-barking-twice-1.mp3"></audio>
+            <div><img src="images/duckling-four-picture-id153728113.jpg" alt="Slika2" width="100%" height="100%" onmouseenter="Zvuk(this.alt)" onclick="Otvori(this.alt)"></div>
+            <audio id="audio1" src="./demo/duck-quack-112941.mp3"></audio>
+            <div><img src="images/Depositphotos_74974941_xl-2015-e1569443284386.jpg" alt="Slika3" width="100%" height="100%" onmouseenter="Zvuk(this.alt)" onclick="Otvori(this.alt)"></div>
+            <audio id="audio2" src="./demo/cat-meow-14536.mp3"></audio>
+            <div><img src="images/Babychick-GettyImages-171143554-5911e8d63df78c92838d4b8c.jpg" alt="Slika4" width="100%" height="100%" onmouseenter="Zvuk(this.alt)" onclick="Otvori(this.alt)"></div>
+            <audio id="audio3" src="./demo/chicken-single-alarm-call-6056.mp3"></audio>
+            <div><img src="images/Cow_female_black_white.jpg" alt="Slika5" width="100%" height="100%" onmouseenter="Zvuk(this.alt)" onclick="Otvori(this.alt)"></div>
+            <audio id="audio4" src="./demo/mooing-cow-122255.mp3"></audio>
+          </div>
+    </div>
+    <footer>
+      <div>
+        <p class="text-center text-light ft"> Copyright @ Predskolska Ustanova "Srecno dete"</p>
+      </div>
+    </footer>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>
